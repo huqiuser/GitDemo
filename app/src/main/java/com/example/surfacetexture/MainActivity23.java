@@ -58,7 +58,7 @@ public class MainActivity23 extends Activity implements SurfaceHolder.Callback ,
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // main  1
+        // main  3
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main23);
         StatusBarCompat.setStatusBar(this);

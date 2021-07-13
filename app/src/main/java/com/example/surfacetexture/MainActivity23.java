@@ -147,6 +147,7 @@ public class MainActivity23 extends Activity implements SurfaceHolder.Callback ,
 
     @Override
     protected void onStop() {
+        // main  2
         super.onStop();
         mSensorManager.unregisterListener(this,mSensor);
     }

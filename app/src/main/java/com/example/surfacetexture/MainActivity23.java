@@ -151,6 +151,7 @@ public class MainActivity23 extends Activity implements SurfaceHolder.Callback ,
     }
 
     public void releaseCamera(){
+        //dev 1
         if (mCamera != null) {
             mSurfaceHolder.removeCallback(this);
             mCamera.setPreviewCallback(null);

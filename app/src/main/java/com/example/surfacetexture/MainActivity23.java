@@ -177,6 +177,7 @@ public class MainActivity23 extends Activity implements SurfaceHolder.Callback ,
     }
 
     public void init(){
+        //dev 2
         if(mSurfaceView == null){
             mSurfaceView = findViewById(R.id.surfaceview);
 //            mSurfaceView.setCustomEvent(new CustomSurfaceView.ONTouchEvent() {

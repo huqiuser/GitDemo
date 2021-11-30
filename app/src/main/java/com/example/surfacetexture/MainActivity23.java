@@ -41,7 +41,7 @@ import java.util.List;
 
 
 public class MainActivity23 extends Activity implements SurfaceHolder.Callback , SensorEventListener {
-    private static int mOrientation = 0;
+    private static int mOrientation = 2;
     private static int mCameraID = Camera.CameraInfo.CAMERA_FACING_BACK;
     private SurfaceView mSurfaceView;
     private SurfaceHolder mSurfaceHolder;
